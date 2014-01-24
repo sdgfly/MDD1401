@@ -16,18 +16,18 @@ h1, h2, h3, h4, h5, h6 {
 /* ==== Navbar Brand ==== */
 .flick {
 	color: #ff0084;
-	text-shadow: 0px 0px 35px #ff0084;
+	text-shadow: 0px 0px 15px #ff0084;
 }
 .instant {
 	color: #517fa4;
-	text-shadow: 0px 0px 35px #517fa4 ;
+	text-shadow: 0px 0px 15px #517fa4 ;
 }
 
 
 
 .bucket {
 	color: #FFF;
-	text-shadow: 0px 0px 35px #fff;
+	text-shadow: 0px 0px 15px #fff;
 }
 
 .navbar-brand, 
@@ -68,6 +68,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-	margin: 35px auto;
+	margin: 15px auto;
 	font-size: .6875em; /* 11px */
 }
