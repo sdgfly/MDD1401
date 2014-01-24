@@ -1,4 +1,4 @@
-/* styles to everide default bootstrap styls */
+/* styles to overide default bootstrap styls */
 
 body {
 	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
@@ -9,32 +9,65 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Abril Fatface", cursive;;
+	font-family: "Abril Fatface", cursive;
 
 }
 
-
+/* ==== Navbar Brand ==== */
 .flick {
 	color: #ff0084;
-	
-
-	/* -5px -5px 40px #ff0084 */
+	text-shadow: 0px 0px 35px #ff0084;
 }
 .instant {
 	color: #517fa4;
+	text-shadow: 0px 0px 35px #517fa4 ;
 }
 
-.center {
 
-	margin: 5px auto;
-}
 
 .bucket {
 	color: #FFF;
+	text-shadow: 0px 0px 35px #fff;
+}
+
+.navbar-brand, 
+.navbar {
+	font-family: "Abril Fatface", cursive;
+	font-size: 1.5em;
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+/* ==== Nav ==== */
+
+.navbar a {
+	color: #ccc;
+}
+
+.navbar a:hover {
+	color: #414141;
+	background-color: #CCC;
+}
+
+.navbar .active a{
+	color: #414141;
+	
+}
+
+.active {
+	background-color: #ccc;
 }
 
 
+/* ==== uncatogorized styles ==== */
+.center {
+
+	margin:0px auto;
+}
+
 .footer {
-	margin: 20px auto;
+	margin: 35px auto;
 	font-size: .6875em; /* 11px */
 }
