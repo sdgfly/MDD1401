@@ -1,0 +1,40 @@
+/* styles to everide default bootstrap styls */
+
+body {
+	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	color: #ccc;
+	background-color: #414141;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Abril Fatface", cursive;;
+
+}
+
+
+.flick {
+	color: #ff0084;
+	
+
+	/* -5px -5px 40px #ff0084 */
+}
+.instant {
+	color: #517fa4;
+}
+
+.center {
+
+	margin: 5px auto;
+}
+
+.bucket {
+	color: #FFF;
+}
+
+
+.footer {
+	margin: 20px auto;
+	font-size: .6875em; /* 11px */
+}
