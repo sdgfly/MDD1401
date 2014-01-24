@@ -1,22 +1,22 @@
-InstaFlickBucket MDD1401
+<h1>InstaFlickBucket MDD1401</h1>
 
-Hello! This is my project repositrory for MDD 1401 at Full Sail Online
+<p>Hello! This is my project repositrory for MDD 1401 at Full Sail Online</p>
 
-NOTE TO REVIEWERS:
- 
-Week 2 Reviewer:
+<h2>NOTE TO REVIEWERS:</h2>
+
+<p><strong>Week 2 Reviewer:</strong></p>
 The boilerplate file is where the basic styles are going to be in week 2, the application will not be pushed until week 4 so if you are my week 2 reviewer please look in the correct folders before you say that there is not enough to review or some equivalent statement. 
 
-Week 3 Reviewer:
+<p><strong>Week 3 Reviewer:</strong></p>
 Sorry there is not a lot to "see" here yet, the basic file structure has been pushed and the ground work for the navigation has been laid out. Check back in Week 4 to see the final project! 
 
-About the app: 
+<p><strong>About the app:</strong></p>
 
 This app will pull pictures using the Flickr, instagram, and photobucket API’s and display them to the user in a mobile friendly format.
 
 It is build on Twitter Bootstrap 3 with the use of Angular JS
 
-Change Log:
+<h3>Change Log:</h3>
 
 1/6/14: created Repo and made Readme file.
 
