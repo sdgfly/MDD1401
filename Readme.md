@@ -11,7 +11,7 @@
 <p>Sorry there is not a lot to "see" here yet, the basic file structure has been pushed and the ground work for the navigation has been laid out. Check back in Week 4 to see the final project!</p>
 
 <p><strong>Week 4 Reviewer:</strong></p>
-<p>I have been sinck ofr over a week so the project has suffered for it. I am still activly working on it at the moment so if it looks incomplete then please check back at a later time. If you have to do your review now then that is understandable have a good day!</p>
+<p>I have been sick for over a week so the project has suffered for it. I am still activly working on it at the moment so if it looks incomplete then please check back at a later time. If you have to do your review now then that is understandable have a good day!</p>
 
 <p><strong>About the app:</strong></p>
 
