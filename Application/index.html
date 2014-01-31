@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="ifb">
 <head>
 	<meta name="authors" content="Phillip Moran">
-	<meta name="descriton" content="InsstaFlickBucket allows users to search for photos through the most common photosharing sites by submitting a query or by using geolocation">
+	<meta name="descriton" content="InstaFlickBucket allows users to search for photos through the most common photosharing sites by submitting a query or by using geolocation">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 	<title>InstaFlickBucket - All your photos in one place</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" media="screen">
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 	<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Ubuntu:bold" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css">
 	<!-- override & custom styles -->
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 </head>
@@ -31,23 +33,37 @@
 		<!-- Collapse the navigation links on smaller screens -->
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">New Search</a></li>
-				<li><a href="#">Previous Searches</a></li>
+				<li ng-class="homeActive"><a href="#/">Home</a></li>
+				<li ng-class="searchActive"><a href="#/search">New Search</a></li>
+				<li ng-class="previousActive"><a href="#/previous">Previous Searches</a></li>
 			</ul>
 		</div>
 	</div>
 	
 </div>
-<!-- Static Content -->
-<div class="container">
+<!-- end Static header -->
+<!-- begin dynamic content -->
+
 	
-	<!-- Dynamci content provided by AngularJS -->
-	<div ng-controller="viewController">
+	<!-- Dynamcic content provided by AngularJS -->
+	<div ng-view>
 		
 	</div>
 	
+
+<!-- end dynamic content -->
+<!-- start static footer -->
+<!-- come back and fix this later!
+<div class="advertisment-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12"><p><img src="img/ad-ph.png" alt="advertisment place holder" class="img-responsive ad" /></p></div>
+			<div class="col-md-4 col-sm-6 hidden-xs"><p><img src="img/ad-ph.png" alt="advertisment place holder" class="img-responsive ad" /></p></div>
+			<div class="col-md-4 hidden-sm hidden-xs"><p><img src="img/ad-ph.png" alt="advertisment place holder" class="img-responsive ad" /></p></div>
+		</div>
+	</div>
 </div>
+-->
 
 
 
