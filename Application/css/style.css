@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-brand, 
 .navbar {
-	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 }
 
@@ -64,9 +64,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ==== Home page styles ==== */
+
 .jumbotron {
 	background-color: #595959;
 	padding: 50px 0px 120px 0px;
+}
+
+.jumbotron h1{
+	padding-top: 50px;
 }
 
 .lead {
