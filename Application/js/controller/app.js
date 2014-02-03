@@ -1,4 +1,4 @@
-angular.module('Ifb', [])
+var app = angular.module('Ifb', [])
 	.config(ifbRouter);
 
 function ifbRouter ($routeProvider) {

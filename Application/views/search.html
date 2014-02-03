@@ -8,11 +8,19 @@
 
 					<label for="style">Enter Search Term: </label>
 					<div class="pull-right">
-						<input ng-model="" type="text" id="" placeholder="What will you see today?" size="55" />
-						<button type="search" class="btn btn-primary btn-sm"><i class="glyphicon glyphicon-search"></i> Search Now</button>
+						<input ng-model="search" type="text" id="search" placeholder="What will you see today?" size="55" />
+						<button type="search" ng-click="runSearch" class="btn btn-primary btn-sm"><i class="glyphicon glyphicon-search"></i> Search Now</button>
 					</div>
 				</div>
 				</div>		
 	</form>
+	</div>
+
+	<div ng-show>
+		<div class="row">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"></div>
+			<div ng-repeat="photo in results">{{results.photo}}</div>
+		</div>
+		
 	</div>
 </div>
